@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">321946643849-rba599mf9epk45v9fsd8ocug7iftkpvm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ecohelp-5debe.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">321946643849</string>
+    <string name="google_api_key" translatable="false">AIzaSyCONT7QSqD4vpQML6qUE8_gwCywZvlafZM</string>
+    <string name="google_app_id" translatable="false">1:321946643849:android:d745e347bf4f46ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCONT7QSqD4vpQML6qUE8_gwCywZvlafZM</string>
+    <string name="google_storage_bucket" translatable="false">ecohelp-5debe.appspot.com</string>
+    <string name="project_id" translatable="false">ecohelp-5debe</string>
+</resources>
