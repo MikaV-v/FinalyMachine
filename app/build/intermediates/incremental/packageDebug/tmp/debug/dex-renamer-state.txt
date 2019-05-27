@@ -1,4 +1,4 @@
-#Fri May 24 23:16:32 MSK 2019
-base.0=D\:\\MACHINEWERFORJAVA\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Mon May 27 14:44:36 MSK 2019
+base.0=D\:\\FinalyMachine1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

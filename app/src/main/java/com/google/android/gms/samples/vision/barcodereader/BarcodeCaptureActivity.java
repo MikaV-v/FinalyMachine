@@ -112,12 +112,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         Button btn = (Button) findViewById(R.id.button3);
 
 
-        barcodetoprod.put("54491472", "3");
-        barcodetoprod.put("5449000000286", "5");
-        barcodetoprod.put("5449000054227", "7");
-        barcodetoprod.put("5449000228970", "4");
-        barcodetoprod.put("5449000000439", "7");
-        barcodetoprod.put("5449000133335", "7");
+        barcodetoprod.put("54491472", "5");
+        barcodetoprod.put("5449000000286", "7");
+        barcodetoprod.put("5449000054227", "9");
+        barcodetoprod.put("5449000228970", "5");
+        barcodetoprod.put("5449000000439", "9");
+        barcodetoprod.put("5449000133335", "9");
 
 
 
@@ -184,7 +184,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
         boolean c = gestureDetector.onTouchEvent(e);
 
-        return b || c || super.onTouchEvent(e);
+        return false;//b || c || super.onTouchEvent(e);
     }
 
     /**
@@ -377,46 +377,46 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     }
 
 
-    private boolean onTap(float rawX, float rawY) {
-        // Find tap point in preview frame coordinates.
-        int[] location = new int[2];
-        mGraphicOverlay.getLocationOnScreen(location);
-        float x = (rawX - location[0]) / mGraphicOverlay.getWidthScaleFactor();
-        float y = (rawY - location[1]) / mGraphicOverlay.getHeightScaleFactor();
-
-        // Find the barcode whose center is closest to the tapped point.
-        Barcode best = null;
-        float bestDistance = Float.MAX_VALUE;
-        for (BarcodeGraphic graphic : mGraphicOverlay.getGraphics()) {
-            Barcode barcode = graphic.getBarcode();
-            if (barcode.getBoundingBox().contains((int) x, (int) y)) {
-                // Exact hit, no need to keep looking.
-                best = barcode;
-                break;
-            }
-            float dx = x - barcode.getBoundingBox().centerX();
-            float dy = y - barcode.getBoundingBox().centerY();
-            float distance = (dx * dx) + (dy * dy);  // actually squared distance
-            if (distance < bestDistance) {
-                best = barcode;
-                bestDistance = distance;
-            }
-        }
-
-        if (best != null) {
-            Intent data = new Intent();
-            data.putExtra(BarcodeObject, best);
-            setResult(CommonStatusCodes.SUCCESS, data);
-            finish();
-            //return true;
-        }
-        return false;
-    }
+//    private boolean onTap(float rawX, float rawY) {
+//        // Find tap point in preview frame coordinates.
+//        int[] location = new int[2];
+//        mGraphicOverlay.getLocationOnScreen(location);
+//        float x = (rawX - location[0]) / mGraphicOverlay.getWidthScaleFactor();
+//        float y = (rawY - location[1]) / mGraphicOverlay.getHeightScaleFactor();
+//
+//        // Find the barcode whose center is closest to the tapped point.
+//        Barcode best = null;
+//        float bestDistance = Float.MAX_VALUE;
+//        for (BarcodeGraphic graphic : mGraphicOverlay.getGraphics()) {
+//            Barcode barcode = graphic.getBarcode();
+//            if (barcode.getBoundingBox().contains((int) x, (int) y)) {
+//                // Exact hit, no need to keep looking.
+//                best = barcode;
+//                break;
+//            }
+//            float dx = x - barcode.getBoundingBox().centerX();
+//            float dy = y - barcode.getBoundingBox().centerY();
+//            float distance = (dx * dx) + (dy * dy);  // actually squared distance
+//            if (distance < bestDistance) {
+//                best = barcode;
+//                bestDistance = distance;
+//            }
+//        }
+//
+//        if (best != null) {
+//            Intent data = new Intent();
+//            data.putExtra(BarcodeObject, best);
+//            setResult(CommonStatusCodes.SUCCESS, data);
+//            finish();
+//            //return true;
+//        }
+//        return false;
+//    }
 
     private class CaptureGestureListener extends GestureDetector.SimpleOnGestureListener {
         @Override
         public boolean onSingleTapConfirmed(MotionEvent e) {
-            return onTap(e.getRawX(), e.getRawY()) || super.onSingleTapConfirmed(e);
+            return false;//onTap(e.getRawX(), e.getRawY()) || super.onSingleTapConfirmed(e);
         }
     }
 
@@ -506,9 +506,11 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         TextView textView = findViewById(R.id.ViewBarcotessa);
 
         for (String key_bar : barcodetoprod.keySet()) {
-            if(key_bar.equals(barcode.displayValue)){
+            if(key_bar.equals(barcode.displayValue.toString())){
                 textView.setText(barcode.displayValue);
                 arrayList.add(Integer.parseInt(barcodetoprod.get(key_bar)));
+                textView.setText("товар обнаружен");
+                break;
             }
             else{textView.setText("товар не обнаружен");
                 arrayList.add(1); }

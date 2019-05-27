@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MACHINEWERFORJAVA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+            "outputFile": "D:\\FinalyMachine1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\78cf571e186456b92e02f93775527767\\res\\values-am\\values-am.xml",
@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\258678e4831fbaa6eeadfbc627453e50\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3821",
+                        "endColumns": "190",
+                        "endOffsets": "4007"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\1115fa015897e8789364a6a857feb8c0\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "2738,2842,3013,3137,3241,3427,3552,3690,4012,4199,4304,4480,4605,4799,4956,5046,5133",
                         "endColumns": "103,170,123,103,185,124,137,130,186,104,175,124,193,156,89,86,99",
                         "endOffsets": "2837,3008,3132,3236,3422,3547,3685,3816,4194,4299,4475,4600,4794,4951,5041,5128,5228"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\c4e7b6a1afae8a1688d93069507d394a\\res\\values-am\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3821",
-                        "endColumns": "190",
-                        "endOffsets": "4007"
                     }
                 }
             ]

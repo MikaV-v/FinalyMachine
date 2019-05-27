@@ -19,11 +19,11 @@
       android:orientation="vertical">
 
     <Button
-        android:onClick="onClick1"
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/звершитвьсканирование" />
+        android:onClick="onClick1"
+        android:text="@string/завершитьсканирование" />
 
     <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
         android:id="@+id/preview"

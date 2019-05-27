@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MACHINEWERFORJAVA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "D:\\FinalyMachine1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\c4e7b6a1afae8a1688d93069507d394a\\res\\values-te\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3998",
-                        "endColumns": "198",
-                        "endOffsets": "4192"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\1115fa015897e8789364a6a857feb8c0\\res\\values-te\\values.xml",
                     "from": {
@@ -52,6 +35,23 @@
                         "startOffsets": "105,219,328,439,529,634,759,841,923,1014,1107,1203,1297,1398,1491,1586,1681,1772,1863,1947,2060,2168,2267,2378,2480,2597,2763,5541",
                         "endColumns": "113,108,110,89,104,124,81,81,90,92,95,93,100,92,94,94,90,90,83,112,107,98,110,101,116,165,100,81",
                         "endOffsets": "214,323,434,524,629,754,836,918,1009,1102,1198,1292,1393,1486,1581,1676,1767,1858,1942,2055,2163,2262,2373,2475,2592,2758,2859,5618"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\258678e4831fbaa6eeadfbc627453e50\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3998",
+                        "endColumns": "198",
+                        "endOffsets": "4192"
                     }
                 },
                 {

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:15:1-36:12
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\2943844881412dc3ae05c4f4966a7ff3\AndroidManifest.xml:2:1-9:12
@@ -49,35 +49,35 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Миша\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\52d47976371027fcc9f203049c41e6b3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\4779b1483e428285909e0a8f5c041032\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\96386763b415dba9e7343f4228973418\AndroidManifest.xml:2:1-7:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:3:5-66
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:4:5-35
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:4:5-35
 uses-feature#android.hardware.camera
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:6:5-60
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:6:5-60
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:6:19-57
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:6:19-57
 uses-permission#android.permission.CAMERA
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:8:5-65
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:8:22-62
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:10:5-39:19
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:10:5-39:19
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:28:5-34:19
@@ -109,63 +109,63 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Миша\.grad
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78cf571e186456b92e02f93775527767\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:15:9-40
 	android:hardwareAccelerated
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:13:9-43
 	android:fullBackupContent
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:12:9-42
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:12:9-42
 	android:icon
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:14:9-38
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:14:9-38
 	android:allowBackup
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:17:9-47
 activity#com.google.android.gms.samples.vision.barcodereader.QRcodewiev
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:18:9-57
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:18:9-57
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:18:19-45
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:18:19-45
 meta-data#com.google.android.gms.version
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:20:9-22:69
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:20:9-22:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\258678e4831fbaa6eeadfbc627453e50\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\258678e4831fbaa6eeadfbc627453e50\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:22:13-66
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:22:13-66
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:21:13-58
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:21:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:23:9-25:39
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:23:9-25:39
 	android:value
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:24:13-70
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:24:13-70
 activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:29:13-56
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
-ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:36:9-38:44
+ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:36:9-38:44
 	android:label
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:38:13-41
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:38:13-41
 	android:name
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml:37:13-51
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml:37:13-51
 uses-sdk
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:19:5-21:41
@@ -256,16 +256,16 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Миша\.gradle\caches\trans
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\4779b1483e428285909e0a8f5c041032\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\96386763b415dba9e7343f4228973418\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\96386763b415dba9e7343f4228973418\AndroidManifest.xml:5:5-44
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		ADDED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MACHINEWERFORJAVA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		ADDED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinalyMachine1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:25:5-79
 	android:name

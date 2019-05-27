@@ -1463,7 +1463,9 @@ string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_main
 string use_flash
+string vdfgfsd
 string Завершитьоперацию
+string завершитьсканирование
 string звершитвьсканирование
 string звершитьсканирование
 string нчть
@@ -1665,6 +1667,7 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style GreenText
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
