@@ -635,6 +635,7 @@
     <string name="завершитьсканирование">завершить сканирование</string>
     <string name="звершитвьсканирование">звершвитьсканирование</string>
     <string name="звершитьсканирование">звершить сканирование</string>
+    <string name="нажмичтобыначатьсканирование">нажми что бы начать сканирование</string>
     <string name="нчть">скантрование</string>
     <string name="сканировать"/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

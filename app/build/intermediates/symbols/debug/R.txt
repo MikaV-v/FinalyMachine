@@ -1467,8 +1467,9 @@ int string Завершитьоперацию 0x7f0c005e
 int string завершитьсканирование 0x7f0c005f
 int string звершитвьсканирование 0x7f0c0060
 int string звершитьсканирование 0x7f0c0061
-int string нчть 0x7f0c0062
-int string сканировать 0x7f0c0063
+int string нажмичтобыначатьсканирование 0x7f0c0062
+int string нчть 0x7f0c0063
+int string сканировать 0x7f0c0064
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style Animation_AppCompat_Dialog 0x7f0d0002

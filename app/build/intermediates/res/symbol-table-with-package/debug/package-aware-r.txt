@@ -1468,6 +1468,7 @@ string Завершитьоперацию
 string завершитьсканирование
 string звершитвьсканирование
 string звершитьсканирование
+string нажмичтобыначатьсканирование
 string нчть
 string сканировать
 style AlertDialog_AppCompat

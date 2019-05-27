@@ -5180,8 +5180,9 @@ public final class R {
     public static final int завершитьсканирование=0x7f0c005f;
     public static final int звершитвьсканирование=0x7f0c0060;
     public static final int звершитьсканирование=0x7f0c0061;
-    public static final int нчть=0x7f0c0062;
-    public static final int сканировать=0x7f0c0063;
+    public static final int нажмичтобыначатьсканирование=0x7f0c0062;
+    public static final int нчть=0x7f0c0063;
+    public static final int сканировать=0x7f0c0064;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0d0000;
