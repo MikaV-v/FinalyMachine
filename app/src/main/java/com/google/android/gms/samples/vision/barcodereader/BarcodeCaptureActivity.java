@@ -62,12 +62,14 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.UUID;
 
+import static com.google.android.gms.samples.vision.barcodereader.MainActivity.obshsumma;
+
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
  * rear facing camera. During detection overlay graphics are drawn to indicate the position,
  * size, and ID of each barcode.
  */
-public final class BarcodeCaptureActivity extends AppCompatActivity implements BarcodeGraphicTracker.BarcodeUpdateListener {
+public final class BarcodeCaptureActivity extends Activity implements BarcodeGraphicTracker.BarcodeUpdateListener {
     private static final String TAG = "Barcode-reader";
 
     // intent request code to handle updating play services if needed.
@@ -98,7 +100,8 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
 
     // Создаем новый список
-    ArrayList<Integer> arrayList = new ArrayList<>();
+
+    public ArrayList<Integer> arrayList = new ArrayList<>();
 
     /**
      * Initializes the UI and creates the detector pipeline.
@@ -143,9 +146,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-        Snackbar.make(mGraphicOverlay, "Tap to capture. Pinch/Stretch to zoom",
-                Snackbar.LENGTH_LONG)
-                .show();
+
     }
 
     /**
@@ -486,7 +487,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
             String UID = (UUID.randomUUID().toString());
             DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-            mDatabase.child("coinsUid").child(UID).setValue(sum);
+            mDatabase.child("coinsUid").child(UID).setValue(obshsumma);
             Intent intent = new Intent(this,QRcodewiev.class);
             intent.putExtra("name", UID);
             startActivity(intent);
@@ -508,7 +509,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
         for (String key_bar : barcodetoprod.keySet()) {
             if(key_bar.equals(barcode.displayValue.toString())){
-
+                obshsumma+=Integer.parseInt(barcodetoprod.get(key_bar));
                 arrayList.add(Integer.parseInt(barcodetoprod.get(key_bar)));
                 textView.setText(barcode.displayValue);
                 textView.setText(barcodetoprodname.get(key_bar)+" цена:"+barcodetoprod.get(key_bar));
@@ -521,10 +522,13 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
             if(barcode != null){
                 Log.d(TAG, arrayList.toString());
+                String str = Long.toString(obshsumma);
+                Log.d(TAG,str);
                 Intent intent = new Intent(this, LickeAlert.class);
                 startActivity(intent);
             }
 
 
         }
+
 }

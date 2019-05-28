@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private TextView statusMessage;
     private TextView barcodeValue;
 
+    public static long obshsumma=0;
     //private String key_bar;
 
     public Map<String,String> barcodetoprod = new HashMap<>();
@@ -53,6 +54,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         barcodetoprod.put("54491472", "\"Coca-Cola\", 0,5 л P:25");
         barcodetoprod.put("5449000000286", "\"Coca-Cola\", 2 л P:100");
@@ -76,6 +78,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.read_barcode) {
+            obshsumma=0;
             // launch barcode activity.
             Intent intent = new Intent(this, BarcodeCaptureActivity.class);
             intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
