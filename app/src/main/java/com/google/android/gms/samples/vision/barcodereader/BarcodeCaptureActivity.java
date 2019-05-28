@@ -515,7 +515,20 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             else{textView.setText("товар не обнаружен");
                 arrayList.add(1); }
         }
-            //Thread.sleep(5000);
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Информация")
+                    .setMessage("QR Code уже считан или неверен")
+                    .setCancelable(false)
+                    .setNegativeButton("ОК",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
 
+                                Intent intent = new Intent(BarcodeCaptureActivity.this, MainActivity.class);
+                                startActivity(intent);
+                            });
+
+            final AlertDialog alert = builder.create();
+            alert.show();
+                    }
         }
 }
