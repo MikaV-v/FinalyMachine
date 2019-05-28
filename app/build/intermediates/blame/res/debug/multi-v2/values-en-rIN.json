@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\FinalyMachine1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "D:\\FinalyMachine_errors\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\78cf571e186456b92e02f93775527767\\res\\values-en-rIN\\values-en-rIN.xml",

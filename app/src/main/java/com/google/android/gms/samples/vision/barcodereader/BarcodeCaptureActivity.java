@@ -80,6 +80,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
 
     public Map<String,String> barcodetoprod = new HashMap<>();
+    public Map<String,String> barcodetoprodname = new HashMap<>();
 
 
     // constants used to pass extra data in the intent
@@ -99,8 +100,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     // Создаем новый список
     ArrayList<Integer> arrayList = new ArrayList<>();
 
-
-
     /**
      * Initializes the UI and creates the detector pipeline.
      */
@@ -111,6 +110,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
         Button btn = (Button) findViewById(R.id.button3);
 
+        barcodetoprodname.put("54491472", "\"Coca-Cola\", 0,5 л");
+        barcodetoprodname.put("5449000000286", "\"Coca-Cola\", 2 л");
+        barcodetoprodname.put("5449000054227", "\"Coca-Cola\", 1 л");
+        barcodetoprodname.put("5449000228970", "\"COCA-COLA\", 0,9 л");
+        barcodetoprodname.put("5449000000439", "\"Coca-Cola\", 1,5 л");
+        barcodetoprodname.put("5449000133335", "\"Coca-Cola\"(ZERO), 1,5 л");
 
         barcodetoprod.put("54491472", "5");
         barcodetoprod.put("5449000000286", "7");
@@ -118,8 +123,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         barcodetoprod.put("5449000228970", "5");
         barcodetoprod.put("5449000000439", "9");
         barcodetoprod.put("5449000133335", "9");
-
-
 
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay<BarcodeGraphic>) findViewById(R.id.graphicOverlay);
@@ -368,8 +371,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
      */
     public void onClick1(View v) {
             generate();
-
-
             arrayList.clear();
 
 
@@ -507,28 +508,23 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
         for (String key_bar : barcodetoprod.keySet()) {
             if(key_bar.equals(barcode.displayValue.toString())){
-                textView.setText(barcode.displayValue);
+
                 arrayList.add(Integer.parseInt(barcodetoprod.get(key_bar)));
-                textView.setText("товар обнаружен");
+                textView.setText(barcode.displayValue);
+                textView.setText(barcodetoprodname.get(key_bar)+" цена:"+barcodetoprod.get(key_bar));
+
                 break;
             }
-            else{textView.setText("товар не обнаружен");
-                arrayList.add(1); }
+            else{textView.setText("товар не обнаружен в базе цена:0");
+                //arrayList.add();
+            }
         }
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Информация")
-                    .setMessage("QR Code уже считан или неверен")
-                    .setCancelable(false)
-                    .setNegativeButton("ОК",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
+            if(barcode != null){
+                Log.d(TAG, arrayList.toString());
+                //Intent intent = new Intent(this,MainActivity.class);
+                //startActivity(intent);
+            }
 
-                                Intent intent = new Intent(BarcodeCaptureActivity.this, MainActivity.class);
-                                startActivity(intent);
-                            });
 
-            final AlertDialog alert = builder.create();
-            alert.show();
-                    }
         }
 }
