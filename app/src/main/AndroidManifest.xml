@@ -15,7 +15,8 @@
         android:label="MultiTrackerApp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".QRcodewiev"></activity>
+        <activity android:name=".LickeAlert"></activity>
+        <activity android:name=".QRcodewiev" />
 
         <meta-data
             android:name="com.google.android.gms.version"

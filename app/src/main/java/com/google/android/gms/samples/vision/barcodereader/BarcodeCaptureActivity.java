@@ -521,8 +521,8 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
             if(barcode != null){
                 Log.d(TAG, arrayList.toString());
-                //Intent intent = new Intent(this,MainActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(this, LickeAlert.class);
+                startActivity(intent);
             }
 
 

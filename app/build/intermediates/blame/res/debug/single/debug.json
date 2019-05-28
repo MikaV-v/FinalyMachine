@@ -756,6 +756,10 @@
         "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\5a8d8da03dcae701b456d635389971b4\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "D:\\FinalyMachine_errors\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_licke_alert.xml.flat",
+        "source": "D:\\FinalyMachine_errors\\app\\src\\main\\res\\layout\\activity_licke_alert.xml"
+    },
+    {
         "merged": "D:\\FinalyMachine_errors\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Миша\\.gradle\\caches\\transforms-2\\files-2.1\\5a8d8da03dcae701b456d635389971b4\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
