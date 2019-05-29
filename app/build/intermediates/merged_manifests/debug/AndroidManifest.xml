@@ -26,11 +26,16 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="MultiTrackerApp"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
-        <activity android:name="com.google.android.gms.samples.vision.barcodereader.LickeAlert" />
-        <activity android:name="com.google.android.gms.samples.vision.barcodereader.QRcodewiev" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.barcodereader.LickeAlert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.barcodereader.QRcodewiev"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -41,7 +46,8 @@
 
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,7 +56,8 @@
         </activity>
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
-            android:label="Read Barcode" />
+            android:label="Read Barcode"
+            android:screenOrientation="portrait" />
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
             <meta-data

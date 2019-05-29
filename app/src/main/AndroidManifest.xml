@@ -9,14 +9,19 @@
 
     <application
         android:allowBackup="true"
+        android:screenOrientation="portrait"
         android:fullBackupContent="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="MultiTrackerApp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".LickeAlert"></activity>
-        <activity android:name=".QRcodewiev" />
+
+        <activity android:name=".LickeAlert"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".QRcodewiev" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -27,6 +32,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +41,7 @@
             </intent-filter>
         </activity>
         <activity
+            android:screenOrientation="portrait"
             android:name=".BarcodeCaptureActivity"
             android:label="Read Barcode" />
     </application>

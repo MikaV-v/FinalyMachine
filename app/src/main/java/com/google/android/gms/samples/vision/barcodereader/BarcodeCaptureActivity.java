@@ -526,6 +526,7 @@ public final class BarcodeCaptureActivity extends Activity implements BarcodeGra
                 Log.d(TAG,str);
                 Intent intent = new Intent(this, LickeAlert.class);
                 startActivity(intent);
+                finish();
             }
 
 

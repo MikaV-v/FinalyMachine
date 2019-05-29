@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:15:1-36:12
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\2943844881412dc3ae05c4f4966a7ff3\AndroidManifest.xml:2:1-9:12
@@ -49,20 +49,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Миша\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\52d47976371027fcc9f203049c41e6b3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\4779b1483e428285909e0a8f5c041032\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\96386763b415dba9e7343f4228973418\AndroidManifest.xml:2:1-7:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:3:5-66
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:2:11-69
@@ -77,7 +77,7 @@ ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:10:5-40:19
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:10:5-47:19
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78e6d4ce3fb24e6e5aa123a436e3216f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\3b789bacf2edc26e80d6d67e50010857\AndroidManifest.xml:28:5-34:19
@@ -106,66 +106,76 @@ MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Миша\.gradle\ca
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78cf571e186456b92e02f93775527767\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\9a4856618aa00ac0759bffd545992245\AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\9a4856618aa00ac0759bffd545992245\AndroidManifest.xml:22:5-23:19
+	android:screenOrientation
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:12:9-45
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\78cf571e186456b92e02f93775527767\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:16:9-40
 	android:hardwareAccelerated
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:14:9-43
 	android:fullBackupContent
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:12:9-42
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:13:9-42
 	android:icon
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:14:9-38
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:15:9-38
 	android:allowBackup
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:18:9-47
 activity#com.google.android.gms.samples.vision.barcodereader.LickeAlert
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:18:9-57
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:20:9-21:61
+	android:screenOrientation
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:18:19-45
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:20:19-45
 activity#com.google.android.gms.samples.vision.barcodereader.QRcodewiev
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:19:9-48
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:22:9-24:42
+	android:screenOrientation
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:19:19-45
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:24:13-39
 meta-data#com.google.android.gms.version
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:21:9-23:69
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:26:9-28:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\258678e4831fbaa6eeadfbc627453e50\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Миша\.gradle\caches\transforms-2\files-2.1\258678e4831fbaa6eeadfbc627453e50\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:23:13-66
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:28:13-66
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:22:13-58
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:27:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:24:9-26:39
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:29:9-31:39
 	android:value
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:25:13-70
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:30:13-70
 activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:screenOrientation
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:29:13-41
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:34:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
-ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:37:9-39:44
+ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:43:9-46:44
+	android:screenOrientation
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:44:13-49
 	android:label
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:46:13-41
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:38:13-51
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:45:13-51
 uses-sdk
 INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml
