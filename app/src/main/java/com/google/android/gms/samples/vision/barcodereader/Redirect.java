@@ -2,20 +2,38 @@ package com.google.android.gms.samples.vision.barcodereader;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class LickeAlert extends Activity {
+import static android.support.constraint.Constraints.TAG;
+import static com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity.resultat;
+
+
+public class Redirect extends Activity {
     private static final int RC_BARCODE_CAPTURE = 9001;
+
+    public  void d(){
+        TextView textView = findViewById(R.id.towar);
+        textView.setText(resultat);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_licke_alert);
-
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_licke_alert);
+        Log.d(TAG, resultat);
+        d();
 
+
+
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        moveTaskToBack(false);
     }
 
     public void onClickalert(View v){

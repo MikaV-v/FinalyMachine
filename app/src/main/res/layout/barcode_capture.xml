@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/topLayout"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:keepScreenOn="true">
 
-  <TextView
-      android:id="@+id/ViewBarcotessa"
-      android:layout_width="match_parent"
-      android:layout_height="58dp"
-      android:textColor="#080C0F"
-      android:textSize="20sp" />
-
-  <LinearLayout
+  <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
+      android:id="@+id/preview"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:orientation="vertical">
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/button3"
+    <com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay
+        android:id="@+id/graphicOverlay"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClick1"
-        android:background="@color/white"
-        android:textColor="#080C0F"
-        android:text="@string/завершитьсканирование" />
-
-    <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
-        android:id="@+id/preview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-      <com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay
-          android:id="@+id/graphicOverlay"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
 
-    </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
+  </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
 
-  </LinearLayout>
 
-</LinearLayout>
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="235dp"
+      android:layout_height="74dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+
+      android:layout_marginBottom="40dp"
+      android:background="@color/grey_500"
+      android:onClick="onClick1"
+      android:text="@string/завершитьсканирование"
+      android:textColor="#000000"
+      app:layout_constraintBottom_toBottomOf="@+id/preview"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

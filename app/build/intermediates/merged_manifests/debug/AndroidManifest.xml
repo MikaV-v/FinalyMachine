@@ -31,7 +31,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.LickeAlert"
+            android:name="com.google.android.gms.samples.vision.barcodereader.Redirect"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.QRcodewiev"

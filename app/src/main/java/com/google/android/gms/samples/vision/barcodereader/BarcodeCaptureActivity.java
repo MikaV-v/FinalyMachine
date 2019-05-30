@@ -1,18 +1,3 @@
-/*
- * Copyright (C) The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.google.android.gms.samples.vision.barcodereader;
 
 import android.Manifest;
@@ -25,14 +10,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
-import android.graphics.RectF;
 import android.hardware.Camera;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -44,7 +27,6 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSource;
 import com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview;
 
@@ -58,7 +40,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.UUID;
 
@@ -80,9 +61,9 @@ public final class BarcodeCaptureActivity extends Activity implements BarcodeGra
 
 
 
-
-    public Map<String,String> barcodetoprod = new HashMap<>();
-    public Map<String,String> barcodetoprodname = new HashMap<>();
+    public static String resultat;
+    public static Map<String,String> barcodetoprod = new HashMap<>();
+    public static Map<String,String> barcodetoprodname = new HashMap<>();
 
 
     // constants used to pass extra data in the intent
@@ -498,33 +479,37 @@ public final class BarcodeCaptureActivity extends Activity implements BarcodeGra
 
 
 
-
+    @Override
+    public void onBackPressed()
+    {
+        moveTaskToBack(false);
+    }
 
         @Override
     public void onBarcodeDetected(Barcode barcode) {
         //do something with barcode data returned
 
         //barcodeValue.setText(barcode.displayValue+": товар не найден");
-        TextView textView = findViewById(R.id.ViewBarcotessa);
+        //TextView textView = findViewById(R.id.ViewBarcotessa);
 
         for (String key_bar : barcodetoprod.keySet()) {
             if(key_bar.equals(barcode.displayValue.toString())){
                 obshsumma+=Integer.parseInt(barcodetoprod.get(key_bar));
                 arrayList.add(Integer.parseInt(barcodetoprod.get(key_bar)));
-                textView.setText(barcode.displayValue);
-                textView.setText(barcodetoprodname.get(key_bar)+" цена:"+barcodetoprod.get(key_bar));
-
+                //textView.setText(barcode.displayValue);
+                //textView.setText("Штрихк код: "+barcode.displayValue+"\n"+barcodetoprodname.get(key_bar)+" цена:"+barcodetoprod.get(key_bar));
+                resultat = "Штрих-код:"+barcode.displayValue+" "+barcodetoprodname.get(key_bar)+" цена:"+barcodetoprod.get(key_bar);
                 break;
             }
-            else{textView.setText("товар не обнаружен в базе цена:0");
-                //arrayList.add();
+            else{resultat = "товар не обнаружен в базе цена:0";
+
             }
         }
             if(barcode != null){
                 Log.d(TAG, arrayList.toString());
                 String str = Long.toString(obshsumma);
-                Log.d(TAG,str);
-                Intent intent = new Intent(this, LickeAlert.class);
+                Log.d(TAG, resultat);
+                Intent intent = new Intent(this, Redirect.class);
                 startActivity(intent);
                 finish();
             }

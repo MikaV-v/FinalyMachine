@@ -124,12 +124,12 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Миша\.grad
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:18:9-47
-activity#com.google.android.gms.samples.vision.barcodereader.LickeAlert
+activity#com.google.android.gms.samples.vision.barcodereader.Redirect
 ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:20:9-21:61
 	android:screenOrientation
 		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:20:19-45
+		ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:20:19-43
 activity#com.google.android.gms.samples.vision.barcodereader.QRcodewiev
 ADDED from D:\FinalyMachine_errors\app\src\main\AndroidManifest.xml:22:9-24:42
 	android:screenOrientation

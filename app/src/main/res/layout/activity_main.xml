@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/Base.Theme.AppCompat.Light"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-
+    android:background="@color/grey_500"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -46,6 +45,7 @@
         android:id="@+id/read_barcode"
         style="@style/Base.Theme.AppCompat.Light"
         android:layout_width="412dp"
+        android:background="@color/grey_500"
         android:layout_height="715dp"
         android:layout_below="@+id/status_message"
         android:layout_alignStart="@+id/barcode_value"
@@ -59,8 +59,7 @@
         android:layout_marginEnd="-23dp"
         android:layout_marginRight="-23dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/white"
         android:text="@string/НАЖМИТЕЧТОБЫНАЧАТЬСКАНИРОВАНИЕ"
-        android:textColor="#080C0F" />
+        android:textColor="#FDFDFE" />
 
 </RelativeLayout>
