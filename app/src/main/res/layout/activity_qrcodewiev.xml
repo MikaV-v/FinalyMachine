@@ -26,8 +26,8 @@
 
     <Button
         android:id="@+id/button101"
-        android:layout_width="340dp"
-        android:layout_height="86dp"
+        android:layout_width="235dp"
+        android:layout_height="74dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -36,7 +36,8 @@
         android:layout_marginBottom="8dp"
         android:onClick="onClickuniks"
         android:text="@string/Завершитьобслуживание"
-        android:textColor="#FDFDFE"
+        android:background="@color/grey_500"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
